@@ -1,0 +1,40 @@
+@import url('./variable.less');
+@import url('@/assets/styles/component/BindingPanel.less');
+
+.custom-dialog {
+  max-height: 810px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.from-search {
+  display: flex;
+  .item {
+    display: flex;
+    margin-right: @margin-x;
+  }
+  .el-input {
+    width: @input-short-width;
+  }
+
+  .el-select {
+    width: @input-short-width;
+  }
+}
+
+.custom-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  row-gap: @margin-vertical;
+  .el-divider {
+    margin-bottom: @main-padding - @margin-vertical;
+    margin-top: @main-padding - @margin-vertical;
+  }
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}

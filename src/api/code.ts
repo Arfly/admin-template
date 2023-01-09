@@ -1,0 +1,6 @@
+export const SUCCESS_CODE = '000000'
+export const USER_ERROR = '100003'
+export const CODE_ERROR = '100004'
+export const LACK_ERROR = '100005'
+export const VERIFY_ERROR = '100006'
+export const USER_INVALIDATOR_ERROR = '100007'

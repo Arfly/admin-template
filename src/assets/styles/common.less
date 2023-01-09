@@ -1,0 +1,73 @@
+// 滚动条样式
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 12px !important;
+  background-color: #eeeeee;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.ques-title {
+  margin-top: 12px;
+  color: #666666;
+  font-size: 16px;
+  .svg-icon {
+    margin-right: 12px;
+    position: relative;
+    top: 2px;
+  }
+  p {
+    flex: 1;
+    line-height: 20px;
+  }
+}
+
+.user-resources {
+  overflow-y: auto;
+  height: 500px;
+  p {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 600;
+  }
+}
+
+.danger-color {
+  color: #ed5565;
+}
+
+p.no-more-data {
+  line-height: 35px !important;
+  text-align: center;
+  color: rgb(159, 159, 159);
+}
+
+// 样式简写
+
+.overflow-ellipsis {
+  overflow: hidden; //超出的文本隐藏
+  text-overflow: ellipsis; //溢出用省略号显示
+  white-space: nowrap; //溢出不换行
+}
+
+.cursor {
+  cursor: pointer; // 点击手势
+}
+
+// 详情、信息字体色
+.info-color {
+  color: #4d4d4d;
+  font-weight: 400;
+}
+
+.search {
+  &-input {
+    width: 130px;
+  }
+}

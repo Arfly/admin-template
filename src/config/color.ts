@@ -1,0 +1,4 @@
+export const COLORS = {
+  ICON_DEFAULT_COLOR: '#666',
+  ICON_ACTIVE_COLOR: '#17E'
+}

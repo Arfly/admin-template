@@ -1,0 +1,16 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "userVO": {
+            "unique": 1,
+            "name": "阿斯顿",
+            "role": [
+                "角色2"
+            ],
+            "level": 1,
+            "levelName": "市级"
+        },
+        "token": "623df13aa8e8874363281b85b42e9df0"
+    }
+}
